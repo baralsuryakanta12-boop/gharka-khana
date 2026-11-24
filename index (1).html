@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ghar ka Khana | Family Restaurant in Bhubaneswar</title>
+  <meta name="description" content="Enjoy comforting homestyle Indian and Odia food at Ghar ka Khana, Sum Hospital Road, beside Mo Bus Stand, Bhubaneswar. Open 11 AM to 11 PM for lunch and dinner.">
+  <meta name="keywords" content="Ghar ka Khana Bhubaneswar, family restaurant in Bhubaneswar, restaurant near Sum Hospital, food near Sum Hospital Road, Dalma restaurant Bhubaneswar">
+  <meta name="theme-color" content="#fff8e9">
+  <meta property="og:title" content="Ghar ka Khana — Where every meal feels like home">
+  <meta property="og:description" content="Comforting, delicious food made fresh for the whole family in Bhubaneswar.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Restaurant",
+    "name":"Ghar ka Khana",
+    "description":"A family restaurant serving comforting Indian and Odia homestyle food.",
+    "telephone":"2345672345",
+    "servesCuisine":["Indian","Odia"],
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Sum Hospital Road, beside Mo Bus Stand",
+      "addressLocality":"Bhubaneswar",
+      "addressRegion":"Odisha",
+      "addressCountry":"IN"
+    },
+    "openingHours":"11:00-23:00",
+    "priceRange":"₹₹"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Ghar ka Khana home"><span class="brand-mark">GK</span><span>Ghar ka <b>Khana</b><small>WHERE EVERY MEAL FEELS LIKE HOME</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a>
+        <a class="btn btn-red nav-call" href="tel:2345672345">Call Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <span class="eyebrow light">A LITTLE TASTE OF HOME</span>
+        <h1>Ghar ka <em>Khana</em></h1>
+        <p class="hero-tag">Where every meal feels like home.</p>
+        <p class="hero-copy">Comforting, delicious food made fresh for the whole family.</p>
+        <div class="hero-actions">
+          <a class="btn btn-yellow" href="#menu">Explore Our Menu <span>↗</span></a>
+          <a class="btn btn-outline" href="tel:2345672345">Call Now</a>
+          <a class="text-link light" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ghar%20ka%20Khana%2C%20Sum%20Hospital%20Road%2C%20beside%20Mo%20Bus%20Stand%2C%20Bhubaneswar%2C%20Odisha">Get directions →</a>
+        </div>
+        <div class="hero-note"><span>✦</span> Homestyle comfort, served with love</div>
+      </div>
+      <div class="hero-stamp"><strong>11 AM</strong><span>TO</span><strong>11 PM</strong><small>LUNCH & DINNER</small></div>
+    </section>
+
+    <section class="intro-strip">
+      <div class="container strip-inner"><span>GOOD FOOD</span><i>✦</i><span>WARM COMPANY</span><i>✦</i><span>HOMELY FLAVOURS</span><i>✦</i><span>HAPPY MOMENTS</span></div>
+    </section>
+
+    <section class="section signature-section">
+      <div class="container signature-grid">
+        <div class="signature-photo photo-frame"><img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1100&q=85" alt="Traditional Indian thali with rice and comforting curries"></div>
+        <div class="signature-copy">
+          <span class="eyebrow">OUR COMFORT CLASSIC</span>
+          <h2>A plate full of<br><em>home & happiness.</em></h2>
+          <p class="dish-name">Bhata Dalma Alubhaja</p>
+          <p>Simple, comforting and full of homely flavor — a classic combination made to feel just like home.</p>
+          <a class="btn btn-dark" href="#menu">Discover the menu <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">MADE TO MAKE YOU SMILE</span><h2>Something delicious<br><em>for everyone.</em></h2><p>Explore comforting favourites from our kitchen.</p></div>
+        <div class="menu-tools">
+          <div class="filters" role="group" aria-label="Filter menu">
+            <button class="filter active" data-filter="all">All dishes</button>
+            <button class="filter" data-filter="veg">Vegetarian</button>
+            <button class="filter" data-filter="nonveg">Non-vegetarian</button>
+          </div>
+          <input id="menuSearch" class="search" type="search" placeholder="Search dishes..." aria-label="Search dishes">
+        </div>
+        <div class="menu-grid" id="menuGrid"></div>
+        <p class="price-note">* Prices shown are editable placeholders. Please confirm current prices at the restaurant.</p>
+      </div>
+    </section>
+
+    <section class="hours-band">
+      <div class="container hours-inner">
+        <div><span class="eyebrow light">COME HUNGRY, LEAVE HAPPY</span><h2>Lunch & dinner,<br><em>the homely way.</em></h2><p>We're here to serve you comforting meals from lunch through dinner.</p></div>
+        <div class="hours-card"><span class="clock-icon">◷</span><small>OPENING HOURS</small><strong>11:00 AM – 11:00 PM</strong><span>Lunch & Dinner</span><a class="btn btn-dark" href="#menu">View Full Menu</a><a class="btn btn-yellow" href="tel:2345672345">Call Now</a></div>
+      </div>
+    </section>
+
+    <section class="section why-section">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">THE GHAR KA KHANA FEELING</span><h2>Why dine <em>with us?</em></h2></div>
+        <div class="feature-grid">
+          <article class="feature"><span>⌂</span><h3>Feels Like Home</h3><p>Comforting food and a warm family atmosphere.</p></article>
+          <article class="feature"><span>✿</span><h3>Fresh Ingredients</h3><p>Delicious dishes prepared with fresh ingredients.</p></article>
+          <article class="feature"><span>♡</span><h3>Family Friendly</h3><p>A welcoming place for families, friends and everyone in between.</p></article>
+          <article class="feature"><span>✧</span><h3>Classic Indian Flavors</h3><p>Timeless dishes for people who love satisfying, homely food.</p></article>
+          <article class="feature"><span>◷</span><h3>Lunch & Dinner</h3><p>Visit us between 11:00 AM and 11:00 PM.</p></article>
+          <article class="feature"><span>☼</span><h3>Warm Atmosphere</h3><p>A place to enjoy a comforting meal together.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy"><span class="eyebrow">A TABLE FOR EVERYONE</span><h2>Where every meal<br><em>feels like home.</em></h2>
+          <p>A place where everyone feels like family. We serve up comforting, delicious dishes made from fresh ingredients, perfect for sharing with the people you love. From kids' favorites to timeless classics, there is a seat—and a perfect plate—waiting for everyone at our table.</p>
+          <a class="btn btn-red" href="#contact">Find our restaurant <span>↗</span></a>
+        </div>
+        <div class="about-photo photo-frame"><img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1100&q=85" alt="A spread of freshly prepared Indian food for sharing"></div>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading centered"><span class="eyebrow">A FEAST FOR THE EYES</span><h2>From our kitchen <em>with love.</em></h2><p>Food photographs are illustrative placeholders and can be replaced with your own.</p></div>
+        <div class="gallery-grid">
+          <button class="gallery-item tall" data-full="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=700&q=80" alt="Indian thali"><span>Homestyle thali</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&w=700&q=80" alt="Indian curry"><span>Rich curry</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=700&q=80" alt="Chicken curry"><span>Chicken curry</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Restaurant interior"><span>Warm spaces</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80" alt="Fresh vegetarian meal"><span>Fresh favourites</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=700&q=80" alt="Colourful Indian meal"><span>Made with care</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?auto=format&fit=crop&w=700&q=80" alt="Rice and dal"><span>Rice & dal</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=700&q=80" alt="Fish curry"><span>Fish curry</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=700&q=80" alt="Mutton curry"><span>Mutton curry</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?auto=format&fit=crop&w=700&q=80" alt="Prawn masala"><span>Prawn masala</span></button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1500&q=90"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=700&q=80" alt="Family dining restaurant"><span>Family dining</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit-section" id="contact">
+      <div class="container visit-grid">
+        <div><span class="eyebrow light">WE'D LOVE TO WELCOME YOU</span><h2>Come visit <em>us.</em></h2><p class="visit-name">Ghar ka Khana</p><p>Sum Hospital Road, beside Mo Bus Stand,<br>Bhubaneswar, Odisha, India</p><p><strong>Phone:</strong> <a href="tel:2345672345">2345672345</a></p><p><strong>Hours:</strong> 11:00 AM – 11:00 PM · Lunch & Dinner</p><p class="notice">Dine-in restaurant — No home delivery available.</p>
+          <div class="visit-actions"><a class="btn btn-yellow" href="tel:2345672345">Call Now</a><a class="btn btn-outline" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ghar%20ka%20Khana%2C%20Sum%20Hospital%20Road%2C%20beside%20Mo%20Bus%20Stand%2C%20Bhubaneswar%2C%20Odisha">Get directions ↗</a></div>
+        </div>
+        <div class="map-wrap"><iframe title="Map showing Sum Hospital Road, Bhubaneswar" src="https://www.google.com/maps?q=Sum%20Hospital%20Road%2C%20Bhubaneswar%2C%20Odisha&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><small>Map shows the nearby area. Use Get Directions for navigation to the restaurant address.</small></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main">
+      <div><a class="brand footer-brand" href="#home"><span class="brand-mark">GK</span><span>Ghar ka <b>Khana</b><small>WHERE EVERY MEAL FEELS LIKE HOME</small></span></a><p>Comforting food. Familiar flavours.<br>A place for everyone.</p></div>
+      <div><h3>Explore</h3><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#gallery">Gallery</a><a href="#contact">Contact</a></div>
+      <div><h3>Visit us</h3><p>Sum Hospital Road, beside Mo Bus Stand,<br>Bhubaneswar, Odisha</p><a href="tel:2345672345">2345672345</a><p>11:00 AM – 11:00 PM<br>Lunch & Dinner</p></div>
+      <div><h3>Stay connected</h3><p>Follow our story on social media.</p><span class="social-placeholder">Instagram · Facebook<br><small>Social links can be added here.</small></span></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 Ghar ka Khana. All rights reserved.</span><span>Made with warmth in Bhubaneswar.</span></div>
+  </footer>
+
+  <div class="mobile-bar"><a href="tel:2345672345">☎ Call Now</a><a href="#menu">☷ Menu</a><a target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Ghar%20ka%20Khana%2C%20Sum%20Hospital%20Road%2C%20Bhubaneswar%2C%20Odisha">⌖ Directions</a></div>
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Gallery image"><button id="lightboxClose" aria-label="Close image">×</button><img id="lightboxImage" alt="Enlarged gallery photograph"></div>
+  <script src="script.js"></script>
+</body>
+</html>
